@@ -1,10 +1,16 @@
-/target
-/lib
-/classes
-/checkouts
+# Created by http://www.gitignore.io
+
+### Clojure ###
 pom.xml
-*.jar
-*.class
+pom.xml.asc
+*jar
+/lib/
+/classes/
+/target/
+/checkouts/
 .lein-deps-sum
+.lein-repl-history
+.lein-plugins/
 .lein-failures
-.lein-plugins
+.nrepl-port
+
